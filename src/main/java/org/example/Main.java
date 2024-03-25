@@ -54,7 +54,6 @@ public class Main {
                 System.out.println("Summe aller Zahlen: " + sum);
 
 
-
         // Alle Zahlen zusammentragen die Addiert wurden
         List <Integer> newList = numbers.stream()
                 .collect(Collectors.toList());
